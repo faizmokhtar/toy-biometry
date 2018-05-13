@@ -12,6 +12,8 @@
 		9895C0FE20A81AC50023FEAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9895C0FC20A81AC50023FEAA /* Main.storyboard */; };
 		9895C10020A81AC60023FEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9895C0FF20A81AC60023FEAA /* Assets.xcassets */; };
 		9895C10320A81AC60023FEAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9895C10120A81AC60023FEAA /* LaunchScreen.storyboard */; };
+		9895C10B20A81B010023FEAA /* BiometrySupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9895C10A20A81B010023FEAA /* BiometrySupport.swift */; };
+		9895C10D20A81C560023FEAA /* BiometricAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9895C10C20A81C560023FEAA /* BiometricAuth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9895C0FF20A81AC60023FEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9895C10220A81AC60023FEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9895C10420A81AC60023FEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9895C10A20A81B010023FEAA /* BiometrySupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometrySupport.swift; sourceTree = "<group>"; };
+		9895C10C20A81C560023FEAA /* BiometricAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				9895C0F820A81AC50023FEAA /* AppDelegate.swift */,
 				9895C0FA20A81AC50023FEAA /* ViewController.swift */,
+				9895C10A20A81B010023FEAA /* BiometrySupport.swift */,
+				9895C10C20A81C560023FEAA /* BiometricAuth.swift */,
 				9895C0FC20A81AC50023FEAA /* Main.storyboard */,
 				9895C0FF20A81AC60023FEAA /* Assets.xcassets */,
 				9895C10120A81AC60023FEAA /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9895C10B20A81B010023FEAA /* BiometrySupport.swift in Sources */,
 				9895C0FB20A81AC50023FEAA /* ViewController.swift in Sources */,
+				9895C10D20A81C560023FEAA /* BiometricAuth.swift in Sources */,
 				9895C0F920A81AC50023FEAA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
